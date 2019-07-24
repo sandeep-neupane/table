@@ -24,14 +24,18 @@ class multipleTable{
 public class table {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		// creating a object and calling constructure
-		multipleTable mt = new multipleTable(5);
+		/*multipleTable mt = new multipleTable(5);
 		mt.printTable();
 		//updating the varibale
 		mt.setNumber(3);
 		mt.printTable();
-
+		*/
+		
+		printStarts pt = new printStarts();
+		pt.printPattern2(5);
+		pt.printPattern1(5);
+		
 	}
 
 }
